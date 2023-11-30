@@ -1,13 +1,14 @@
 .geolocation {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   position: relative;
   flex-direction: column;
   background: url("../../../../asserts/footer/background2.png");
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   background-repeat: no-repeat;
-  background-size: 1440px 300px;
+  background-size: 100% 300px;
   min-height: 300px;
   z-index: 40;
   margin-top: -70px;
@@ -15,10 +16,12 @@
 
 .geolocation__contacts {
   display: flex;
-  padding-top: 140px;
+  padding: 0px 30px;
+  padding-top: 90px;
   align-items: center;
   justify-content: space-between;
-  width: 900px;
+  width: 100%;
+  max-width: 1175px;
 }
 
 .geolocation__link {
@@ -56,4 +59,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    max-width: 330px;
+    width: 100%;
+  }
+
+  .geolocation__mark {
+    padding-left: 105px;
   }

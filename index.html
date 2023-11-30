@@ -39,15 +39,15 @@
             <nav class="header__navigation__list">
               <ul>
                 <li>
-                  <a href="#1" class="nav" onclick="scrollTo1(730)">о сервисе</a>
+                  <a href="#1" class="nav" onclick="scrollTo1('about')">о сервисе</a>
                 </li>
                 <li>
-                  <a href="#2" class="nav" onclick="scrollTo1(1475)"
+                  <a href="#2" class="nav" onclick="scrollTo1('directions')"
                     >направления</a
                   >
                 </li>
                 <li>
-                  <a href="#3" class="nav" onclick="scrollTo1(2180)"
+                  <a href="#3" class="nav" onclick="scrollTo1('team')"
                     >попутчики</a
                   >
                 </li>
@@ -72,15 +72,15 @@
         <nav class="burger__header">
             <ul>
               <li>
-                <a href="#3" class="burger__nav" onclick="burgerScrollTo(1060)">о сервисе</a>
+                <a href="#3" class="burger__nav" onclick="burgerScrollTo('about')">о сервисе</a>
               </li>
               <li>
-                <a href="#2" class="burger__nav" onclick="burgerScrollTo(1820)"
+                <a href="#2" class="burger__nav" onclick="burgerScrollTo('directions')"
                   >направления</a
                 >
               </li>
               <li>
-                <a href="#1" class="burger__nav" onclick="burgerScrollTo(2900)"
+                <a href="#1" class="burger__nav" onclick="burgerScrollTo('team')"
                   >попутчики</a
                 >
               </li>
@@ -122,7 +122,7 @@
             </div>
       </div>
       </div>
-      <section class="promo">
+      <section id="promo" class="promo">
         <div class="promo__container">
           <h1 class="promo__slogan">В путешествие с крутыми попутчиками!</h1>
           <img
@@ -186,44 +186,6 @@
         <img class="about__background__mobile__decoration" src="./asserts/media/320/about/about-mobile.png" alt="background__mobile__decoration">
       </section>
       <section id="about" class="about">
-                <header class="header about__header">
-                    <div class="header__navigation">
-                        <img src="./asserts/headerSpace/logo_full_black.png" alt="letsGologo" />
-
-                        <svg
-                            width="44"
-                            height="2"
-                            viewBox="0 0 44 2"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <rect width="44" height="2" />
-                        </svg>
-
-                        <nav class="header__navigation__list">
-                          <ul>
-                              <li>
-                                  <a href="#" class="nav" onclick="scrollTo1(730)">о сервисе</a>
-                              </li>
-                              <li>
-                                  <a href="#" class="nav" onclick="scrollTo1(1475)"
-                                      >направления</a
-                                  >
-                              </li>
-                              <li>
-                                  <a href="#" class="nav" onclick="scrollTo1(2180)">попутчики</a>
-                              </li>
-                          </ul>
-                      </nav>
-                    </div>
-
-                    <div class="header__contact">
-                        <button class="header__call">
-                            <img src="./asserts/promo/icon_call.svg" alt="call_icon" />
-                        </button>
-                        <button>
-                            <img src="./asserts/promo/icon_mail.svg" alt="mail_icon" /></button
-                        ><button>авторизация</button>
-                    </div>
-                </header>
                 <div class="about__container">
                     <img
                         class="about__container__img"
@@ -489,7 +451,7 @@
             </section>
       <section class="geolocation">
                 <div class="geolocation__contacts">
-                    <div class="interested__contacts__contact">
+                    <div class="interested__contacts__contact geolocation__mark">
                         <button id="location" class="interested__contacts__button basic_blue">
                             <img
                                 class="geolocation__contacts__image"

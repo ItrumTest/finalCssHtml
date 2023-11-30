@@ -1,0 +1,274 @@
+.last__modal {
+  width: 140px;
+  text-align: right;
+}
+
+@media screen and (max-width: 1350px) {
+  .geolocation__mark {
+    padding-left: 0px;
+  }
+
+  .business__container__description {
+    padding-left: 30px;
+  }
+
+  .team__container__description__slogan {
+    padding-bottom: 20px;
+  }
+
+  .team__container__wrapper {
+    padding-left: 0px;
+    padding-top: 200px;
+  }
+
+  .about__container__description h4 {
+    padding-bottom: 20px;
+  }
+
+  .directions__container__description__text {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .directions__container__description {
+    padding-left: 50px;
+  }
+
+  .promo {
+    margin-left: -10px;
+  }
+
+  .about__container__description {
+    padding-top: 200px;
+  }
+
+  .promo__container {
+    padding-top: 100px;
+  }
+
+  .promo__variants {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    top: 712px;
+    padding-left: 30px;
+    max-width: 500px;
+    font-size: 16px;
+    z-index: 91;
+  }
+
+  .promo__variant:not(:nth-child(4) :nth-child(1)) {
+    height: 140px;
+    flex-direction: column-reverse;
+    min-width: 120px;
+  }
+
+  .promo__variant dt {
+    padding-left: 40px;
+  }
+
+  .promo__variant:nth-child(3) {
+    margin-top: -2px;
+    border-radius: 0px 12px 12px 12px !important;
+  }
+
+  .promo__variant:nth-child(2) {
+    border-radius: 12px 12px 0px 0px !important;
+  }
+
+  .promo__variant:nth-child(1) {
+    border-radius: 12px 12px 0px 0px !important;
+  }
+
+  .promo__variant:nth-child(4) {
+    margin-top: -2px;
+    border-radius: 0px 0px 12px 0px !important;
+  }
+
+  .header__navigation__logo__tablet__onScroll {
+    display: block;
+    transition: 0.2s ease-in-out;
+  }
+
+  .team__container__description h4 {
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .geolocation__contacts {
+    padding-left: 70px;
+  }
+
+  .interested__link {
+    max-width: 220px;
+  }
+
+  .business__container__images__content {
+    display: none;
+  }
+
+  .business__container__decoration__tablet__rubl {
+    display: block;
+    transform: scale(1);
+    z-index: 1;
+    padding: 0px;
+    padding-top: 260px;
+    padding-left: 120px;
+  }
+
+  .business__container__tablet__images__content {
+    display: block;
+  }
+
+  .team__container__wrapper {
+    flex-direction: column;
+  }
+
+  .team__container__users img {
+    margin-top: -150px;
+  }
+
+  .team__container__description {
+    width: 100%;
+  }
+
+  .team__container__link {
+    position: relative;
+    top: 610px;
+    width: 100%;
+  }
+
+  .team {
+    min-height: 1200px;
+  }
+
+  .team__container__users {
+    transform: scale(0.9);
+  }
+
+  .about__container__description__text {
+    line-height: 20px;
+  }
+
+  .about__container__description h4 {
+    max-width: 200px;
+  }
+
+  .header__navigation svg {
+    display: none;
+  }
+
+  .promo h1 {
+    font-size: 40px;
+  }
+
+  .nav {
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .promo__container img {
+    padding-left: 0px;
+  }
+
+  .promo__text {
+    padding-left: 10px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  /* .burger__navigation__for__tablet {
+    display: block;
+  } */
+  .geolocation__contacts {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .geolocation__contacts {
+    width: 750px;
+  }
+
+  .geolocation__contacts__contact__span {
+    font-size: 22px;
+  }
+
+  .team__container__users img {
+    margin-top: -150px;
+  }
+
+  .directions__container__description {
+    padding-left: 0px;
+    margin-left: -50px;
+  }
+
+  .directions__container__countries {
+    transform: scale(0.7);
+    margin-left: -60px;
+  }
+
+  .burger__navigation__for__tablet {
+    /* display: block; */
+    /* margin-top: -100px; */
+    position: fixed;
+    z-index: 101;
+  }
+
+  .header_for_tablet {
+    display: block;
+  }
+
+  .promo__text {
+    margin-top: -100px;
+  }
+
+  .promo__variants {
+    top: 522px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .promo h1 {
+    font-size: 40px;
+    margin-left: -100px;
+  }
+
+  .burger__scroll {
+    display: block;
+  }
+
+  .header__contact :nth-child(2) {
+    display: none;
+  }
+
+  .header__contact :nth-child(1) {
+    display: none;
+  }
+
+  .promo__desktop__image {
+    margin-left: -100px;
+    content: url("../../../asserts/media/768/promo/traveller-illustration-tablet\ 1.png");
+  }
+  .promo__variant:not(:nth-child(4) :nth-child(1)) {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .promo__slogan {
+    margin-left: 70px;
+  }
+  .promo h1 {
+    font-size: 40px;
+    padding-left: 70px;
+  }
+
+  .about__container__description {
+    padding-left: 180px;
+  }
+}
